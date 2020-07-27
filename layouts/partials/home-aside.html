@@ -1,0 +1,17 @@
+{{- $term := "" -}}
+<aside class="mt-9 hidden tags">
+  {{- $term = "categories" -}}
+  <div class="mt-8 font-content-sans font-semibold text-raven-800 m-1">分類({{ index .Site.Taxonomies $term | len }})：</div>
+  <div class="flex flex-wrap">
+    {{ range index .Site.Taxonomies $term }}
+    <a class="rounded font-content-sans font-semibold text-sm text-raven-800 hover:text-raven-900 hover:bg-raven-100 m-1" href="{{ .Page.Permalink }}">{{ .Page.Title | humanize }}</a>
+    {{- end }}
+  </div>
+  {{- $term = "tags" -}}
+  <div class="mt-8 font-content-sans font-semibold text-raven-800 m-1">標籤({{ index .Site.Taxonomies $term | len }})：</div>
+  <div class="flex flex-wrap">
+    {{ range index .Site.Taxonomies $term }}
+    <a class="rounded font-content-sans font-semibold text-sm text-raven-800 hover:text-raven-900 hover:bg-raven-100 m-1" href="{{ .Page.Permalink }}">#{{ .Page.Title}}</a>
+    {{- end }}
+  </div>
+</aside>

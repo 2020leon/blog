@@ -1,0 +1,33 @@
+baseURL = ""
+languageCode = "zh-tw"
+defaultContentLanguage = "zh-tw"
+title = "L筆記"
+theme = "axiom"
+
+[params]
+    copyrightYear = "2020"
+    dateFormat = "2006-01-02"
+
+[params.social]
+    github = "https://github.com/2020leon"
+    footer = ["github"]
+
+[params.image]
+    faviconIco = "favicon.ico"
+    faviconAlt = "images/brand/favicon.png"
+
+[menu]
+[[menu.main]]
+    url = "/posts/"
+    name = "文章"
+    weight = 1
+
+[[menu.foot]]
+    url = "/"
+    name = "首頁"
+    weight = 1
+
+[[menu.foot]]
+    url = "/posts/"
+    name = "文章"
+    weight = 2

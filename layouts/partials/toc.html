@@ -1,0 +1,5 @@
+{{- if gt (len .TableOfContents) 80 }}
+<aside class="hidden toc">
+  {{ .TableOfContents }}
+</aside>
+{{- end }}
