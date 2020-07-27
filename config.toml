@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://2020leon.github.io/"
 languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"
 title = "L筆記"
