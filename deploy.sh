@@ -13,7 +13,9 @@ cd public
 git add .
 
 # Commit changes.
-msg="rebuilding site $(date +%Y-%m-%d)"
+iso8601=$(date +%Y-%m-%dT%H:%M:%S%z)
+iso8601=${iso8601:0:22}:${iso8601:22:24}
+msg="rebuilding site $iso8601"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
