@@ -7,7 +7,7 @@ echo "\033[0;32mDeploying...\033[0m"
 echo "\033[0;34m==>\033[0m Updating themes/axiom..."
 cd themes/axiom
 git pull
-cd ...
+cd ../..
 
 # Build the project.
 echo "\033[0;34m==>\033[0m Building the project..."
