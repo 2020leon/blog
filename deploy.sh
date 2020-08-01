@@ -1,10 +1,17 @@
 # If a command fails then the deploy stops
 set -e
 
-printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+echo "\033[0;32mDeploying...\033[0m"
+
+# Update themes/axiom
+echo "\033[0;34m==>\033[0m Updating themes/axiom..."
+cd themes/axiom
+git pull
+cd ...
 
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+echo "\033[0;34m==>\033[0m Building the project..."
+hugo --minify # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
