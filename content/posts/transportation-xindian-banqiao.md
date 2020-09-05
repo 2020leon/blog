@@ -1,8 +1,8 @@
 ---
 title: "[交通] 新店到板橋怎麼去"
 subtitle: "環狀線真的會比較快嗎"
-date: 2020-08-23T00:35:23+08:00
-lastmod: 2020-08-23T00:35:23+08:00
+date: 2020-09-05T23:38:14+08:00
+lastmod: 2020-09-05T23:38:14+08:00
 author: "Leon Chang"
 categories:
 - transportation
