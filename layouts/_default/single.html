@@ -30,6 +30,7 @@
     <div class="ax-l-i{{ printf " %s" (.Params.maxWidthContent | default "max-w-680") }}">
       <article class="cdata">
       {{- .Content }}
+      {{- partial "copyright-notice" . -}}
       {{- partial "tag-footer" . }}
       </article>
       {{ partial "google-adsense-ad-slot" . }}
