@@ -45,7 +45,7 @@ p img, p video {
         padding: .25rem 0 .25rem .5rem;
         display: block;
         color: darkgray;
-        transition: all 100ms ease-in-out;
+        transition: all 50ms ease-in-out;
     }
 
     nav#TableOfContents a:hover {
