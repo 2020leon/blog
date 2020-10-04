@@ -1,8 +1,8 @@
 ---
 title: "[演算法] KMP演算法簡介"
-subtitle: "<!-- 25 words / 125 chars -->"
+subtitle: "優化的字串搜尋演算法"
 date: 2020-10-04T21:34:38+08:00
-lastmod: 2020-10-04T21:34:38+08:00
+lastmod: 2020-10-04T21:40:19+08:00
 author: "Leon Chang"
 categories:
 - algorithm
