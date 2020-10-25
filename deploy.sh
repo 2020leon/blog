@@ -29,9 +29,9 @@ elif [ mdFileCount -eq 1 ]; then
 	lastmod: '"$iso8601" $theFile
 fi
 
-# Update themes/axiom
-echo "\033[0;34m==>\033[0m Updating themes/axiom..."
-cd themes/axiom
+# Update themes/meme
+echo "\033[0;34m==>\033[0m Updating themes/meme..."
+cd themes/meme
 git pull
 cd ../..
 
